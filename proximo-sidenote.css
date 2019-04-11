@@ -1,0 +1,24 @@
+
+
+
+/* Sidenotes style for front-end */
+.sidenote {
+	float: right;
+	clear: right;
+	margin: 0 0 0 5rem;
+	font-size: 0.85rem;
+	line-height: 1.3;
+	vertical-align: baseline;
+	position: relative;
+
+	max-width: 10rem;
+    width: 100%;
+
+    code {
+        font-size: 0.85rem;
+    }
+ }
+
+@media (max-width: 800px) {
+	.sidenote { display: none; }
+}
