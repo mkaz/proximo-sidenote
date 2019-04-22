@@ -3,7 +3,7 @@
  * Plugin Name: Proximo Sidenote
  * Plugin URI: https://github.com/mkaz/proximo-sidenote
  * Description: Tuftesque sidenotes, may only work with proximo theme
- * Version: 0.1.0
+ * Version: 0.1.2
  * Author: Marcus Kazmierczak
  * Author URI: https://mkaz.blog/
  * License: WTFPL

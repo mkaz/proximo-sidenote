@@ -20,9 +20,18 @@
         transforms: {
             from: [{
                 type: 'block',
-                blocks: [ 'core/paragraph' ],
+                blocks: [ 'core/paragraph', 'proximo/tips' ],
                 transform: function ( attributes ) {
                     return blocks.createBlock( 'proximo/sidenote', {
+                        content: attributes.content,
+                    } );
+                }
+            }],
+            to: [{
+                type: 'block',
+                blocks: [ 'core/paragraph' ],
+                transform: function ( attributes ) {
+                    return blocks.createBlock( 'core/paragraph', {
                         content: attributes.content,
                     } );
                 }
